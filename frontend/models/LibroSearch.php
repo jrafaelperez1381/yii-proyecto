@@ -46,7 +46,7 @@ class LibroSearch extends Libro
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
-             'pagination'=>['pageSize'=>2]
+             'pagination'=>['pageSize'=>2]  
         ]);
 
         $this->load($params);
