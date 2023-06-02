@@ -15,7 +15,7 @@ class m230602_013218_creacion_tablas_libros extends Migration
         $table_options = 'CHARACTER SET utf8 COLLATE utf8_spanish_ci ENGINE=InnoDB';
 
         $this->createTable('libros', [
-            'id_libro' => $this->primaryKey(),
+            'Id_libro' => $this->primaryKey(),
             'Titulo' => $this->string(250),
             'Imagen' => $this->string(2500),
         ], $table_options);
