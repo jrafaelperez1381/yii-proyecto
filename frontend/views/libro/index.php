@@ -31,6 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'Id_libro',
             'Titulo',
+            /*'Imagen',*/
             [
                 'format'=>'html',
                 'value'=>function($data){ return Html::img($data->Imagen, ['width'=>'80px']);},
