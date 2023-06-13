@@ -72,13 +72,7 @@ class LibroController extends Controller
 
         $this->subirFoto($model);
 
-       /* if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
-                return $this->redirect(['view', 'Id_libro' => $model->Id_libro]);
-            }
-        } else {
-            $model->loadDefaultValues();
-        }*/
+      
 
         return $this->render('create', [
             'model' => $model,
