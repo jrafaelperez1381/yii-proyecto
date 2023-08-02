@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'Titulo')->textInput(['maxlength' => true]) ?>
     
-    <?= Html::img($model->Imagen, ['width'=>'80px']); ?>
+    <?= Html::img($model->Imagen, ['width'=>'150px']); ?>
 
     <?= $form->field($model, 'archivo')->fileInput() ?>
 
